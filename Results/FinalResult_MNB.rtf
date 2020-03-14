@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww38200\viewh21600\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Running final predictions on train and test data for Multinomial Naive Bayes...\
+\
+Training accuracy: 0.7832853025936599%\
+Test accuracy: 0.5446685878962536%\
+\
+\
+              precision    recall  f1-score   support\
+\
+        ENFJ       0.64      0.27      0.38        51\
+        ENFP       0.44      0.55      0.49       141\
+        ENTJ       0.39      0.37      0.38        51\
+        ENTP       0.44      0.56      0.50       131\
+        ESFJ       0.50      0.08      0.13        13\
+        ESFP       0.00      0.00      0.00        16\
+        ESTJ       0.00      0.00      0.00        10\
+        ESTP       0.43      0.18      0.25        17\
+        INFJ       0.63      0.55      0.59       276\
+        INFP       0.60      0.70      0.64       374\
+        INTJ       0.52      0.46      0.48       206\
+        INTP       0.60      0.62      0.61       260\
+        ISFJ       0.71      0.43      0.54        35\
+        ISFP       0.46      0.38      0.42        50\
+        ISTJ       0.44      0.30      0.35        37\
+        ISTP       0.50      0.63      0.56        67\
+\
+    accuracy                           0.54      1735\
+   macro avg       0.46      0.38      0.40      1735\
+weighted avg       0.54      0.54      0.54      1735\
+\
+Predicted  ENFJ  ENFP  ENTJ  ENTP  ESFJ  ESFP  ESTJ  ESTP  INFJ  INFP  INTJ  \\\
+Actual                                                                        \
+ENFJ         14     7     1     1     1     0     0     0    13     7     4   \
+ENFP          2    78     4     9     0     0     0     0    10    26     7   \
+ENTJ          1     4    19     8     0     0     0     0     1     5     7   \
+ENTP          1     6     2    74     0     0     0     0     6     3     7   \
+ESFJ          0     1     0     2     1     0     0     0     5     2     0   \
+ESFP          0     6     0     2     0     0     0     1     0     4     2   \
+ESTJ          0     2     2     4     0     0     0     0     0     1     1   \
+ESTP          0     2     0     6     0     0     0     3     1     0     0   \
+INFJ          1    11     1     8     0     1     0     1   153    57    13   \
+INFP          2    27     4    15     0     1     0     1    24   261    11   \
+INTJ          0     7    12    14     0     1     1     0    14    18    94   \
+INTP          0    10     3    15     0     1     1     0     6    23    26   \
+ISFJ          0     4     0     1     0     2     0     0     6     3     1   \
+ISFP          0     6     0     2     0     0     0     0     3    12     3   \
+ISTJ          1     3     0     2     0     0     0     0     0     7     5   \
+ISTP          0     5     1     4     0     0     0     1     2     7     1   \
+All          22   179    49   167     2     6     2     7   244   436   182   \
+\
+Predicted  INTP  ISFJ  ISFP  ISTJ  ISTP   All  \
+Actual                                         \
+ENFJ          2     0     1     0     0    51  \
+ENFP          1     1     1     0     2   141  \
+ENTJ          1     0     0     4     1    51  \
+ENTP         24     0     0     3     5   131  \
+ESFJ          1     1     0     0     0    13  \
+ESFP          0     0     0     1     0    16  \
+ESTJ          0     0     0     0     0    10  \
+ESTP          1     0     1     0     3    17  \
+INFJ         17     0     8     1     4   276  \
+INFP         18     0     6     1     3   374  \
+INTJ         33     1     1     3     7   206  \
+INTP        161     0     2     1    11   260  \
+ISFJ          2    15     1     0     0    35  \
+ISFP          1     1    19     0     3    50  \
+ISTJ          2     2     1    11     3    37  \
+ISTP          4     0     0     0    42    67  \
+All         268    21    41    25    84  1735  \
+}

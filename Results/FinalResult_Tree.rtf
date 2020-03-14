@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww25400\viewh14580\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Running final predictions on train and test data for Decision Tree...\
+\
+Training accuracy: 1.0%\
+Test accuracy: 0.42536023054755046%\
+\
+\
+              precision    recall  f1-score   support\
+\
+        ENFJ       0.19      0.10      0.13        49\
+        ENFP       0.34      0.30      0.32       125\
+        ENTJ       0.22      0.28      0.25        36\
+        ENTP       0.34      0.39      0.36       132\
+        ESFJ       0.00      0.00      0.00        10\
+        ESFP       0.00      0.00      0.00         9\
+        ESTJ       0.00      0.00      0.00         4\
+        ESTP       0.05      0.05      0.05        22\
+        INFJ       0.49      0.50      0.49       271\
+        INFP       0.53      0.55      0.54       391\
+        INTJ       0.44      0.46      0.45       225\
+        INTP       0.49      0.49      0.49       254\
+        ISFJ       0.18      0.16      0.17        37\
+        ISFP       0.22      0.21      0.22        52\
+        ISTJ       0.20      0.19      0.19        43\
+        ISTP       0.49      0.44      0.46        75\
+\
+    accuracy                           0.43      1735\
+   macro avg       0.26      0.26      0.26      1735\
+weighted avg       0.42      0.43      0.42      1735\
+\
+Predicted  ENFJ  ENFP  ENTJ  ENTP  ESFJ  ESFP  ESTJ  ESTP  INFJ  INFP  INTJ  \\\
+Actual                                                                        \
+ENFJ          5     6     2     3     1     1     0     1     8    10     3   \
+ENFP          2    37     2    13     3     0     3     1    10    22    13   \
+ENTJ          0     0    10     4     1     0     0     0     3     5     7   \
+ENTP          0     9     4    51     0     1     0     2    21    18     7   \
+ESFJ          0     0     1     2     0     0     0     0     4     1     1   \
+ESFP          0     0     1     1     0     0     0     0     2     1     2   \
+ESTJ          0     0     0     0     0     0     0     0     0     1     0   \
+ESTP          0     0     2     3     0     0     0     1     0     6     6   \
+INFJ          6    14     3     9     0     0     2     4   135    40    21   \
+INFP          5    12     4    16     4     0     2     3    41   214    31   \
+INTJ          4    13     6    17     1     0     0     1    24    21   103   \
+INTP          1     6     8    16     2     1     1     2    18    35    20   \
+ISFJ          1     2     1     3     0     0     0     2     3     5     3   \
+ISFP          2     2     1     5     0     1     0     0     4     8     5   \
+ISTJ          1     4     0     3     1     0     2     0     3     5     7   \
+ISTP          0     4     0     3     1     1     1     2     2     9     6   \
+All          27   109    45   149    14     5    11    19   278   401   235   \
+\
+Predicted  INTP  ISFJ  ISFP  ISTJ  ISTP   All  \
+Actual                                         \
+ENFJ          7     0     0     1     1    49  \
+ENFP          9     0     5     5     0   125  \
+ENTJ          5     0     0     0     1    36  \
+ENTP          9     5     1     2     2   132  \
+ESFJ          0     0     0     1     0    10  \
+ESFP          0     0     2     0     0     9  \
+ESTJ          2     1     0     0     0     4  \
+ESTP          2     0     0     0     2    22  \
+INFJ         20     5     2     6     4   271  \
+INFP         31     6    11     6     5   391  \
+INTJ         21     2     3     3     6   225  \
+INTP        124     3     8     2     7   254  \
+ISFJ          6     6     2     2     1    37  \
+ISFP          6     1    11     2     4    52  \
+ISTJ          2     4     1     8     2    43  \
+ISTP          8     0     3     2    33    75  \
+All         252    33    49    40    68  1735  \
+}
