@@ -5,8 +5,7 @@ Professor: Shirley Mills
 
 Team members: 
 Alexei Tipenko, 100995947
-Agata Logvin, INSERT STUDENT NUMBER HERE!!!!!!!
-
+Agata Logvin, 101164720
 
 Instructions on how to run:
 
