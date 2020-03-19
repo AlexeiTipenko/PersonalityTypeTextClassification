@@ -9,16 +9,15 @@ Agata Logvin, 101164720
 
 Instructions on how to run:
 
-1) Unzip contents of “code.zip”
-2) Upload “ResearchProj.ipynb” into google colab
-3) Upload the "mbti_1.csv" data file to the same directory (this may take a minute or two)
-4) Uncomment the following lines at the end of the imports section in order to install the proper text cleaning packages used by the nltk library:
+1) Upload “ResearchProj.ipynb” into google colab
+2) Upload the "mbti_1.csv" data file to the same directory (this may take a minute or two)
+3) Uncomment the following lines at the end of the imports section in order to install the proper text cleaning packages used by the nltk library:
 
 		#nltk.download('punkt')
 		#nltk.download('stopwords')
 		#nltk.download('wordnet')
 
-	You can comment that back after running them once...
+	You can comment them back after running the program once.
 
 4) Click the “Runtime” tab at the top header
 5) Click “Run All” to execute all the code (1-2 mins to execute)
@@ -34,7 +33,7 @@ that the csv file is in the same directory.
 
 Output:
 
-The output will show some general visualizations at the beginning and will proceed to show the k-fold (k=5) results for each method, followed by training and testing results for the optimal method.
+The output will show some general visualizations at the beginning, as well the training and testing accuracy results for the optimal method (Logistic Regression using PCA).
 
 
 Notes:
